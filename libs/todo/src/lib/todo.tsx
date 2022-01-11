@@ -26,7 +26,7 @@ export function Todo(props: TodoProps) {
     const newTodo = [
       ...state, {
         id: state.length + 1,
-        name: `User${props.prefix} ${state.length + 1}`
+        name: `User ${props.prefix} ${state.length + 1}`
       }]
     setstate(newTodo)
   }
