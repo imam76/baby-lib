@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@cosmic/InputText": ["libs/input-text/src/index.ts"],
       "todo-lib": ["libs/todo/src/index.ts"]
     }
   },

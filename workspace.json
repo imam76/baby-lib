@@ -3,6 +3,8 @@
   "projects": {
     "babylib": "apps/babylib",
     "babylib-e2e": "apps/babylib-e2e",
+    "input-text": "libs/input-text",
+    "input-text-e2e": "apps/input-text-e2e",
     "todo": "libs/todo",
     "todo-e2e": "apps/todo-e2e"
   }

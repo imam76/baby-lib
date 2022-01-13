@@ -1,0 +1,28 @@
+{
+  "root": "apps/input-text-e2e",
+  "sourceRoot": "apps/input-text-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/input-text-e2e/cypress.json",
+        "devServerTarget": "input-text:storybook"
+      },
+      "configurations": {
+        "ci": {
+          "devServerTarget": "input-text:storybook:ci"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/input-text-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["input-text"]
+}

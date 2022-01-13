@@ -9,6 +9,9 @@ export function App() {
       <NxWelcome title="babylib" />
       <div className={styles['todoWrapper']}>
         <Todo prefix='Books' />
+        <h1 className="text-3xl font-bold underline">
+          Hello world!
+        </h1>
       </div>
     </>
   );
