@@ -15,7 +15,7 @@ export function InputText(props: InputTextProps) {
         type="text"
         id={props.id}
         onChange={props.onChange}
-        className='w-64 h-8 rounded-md border border-gray-300 p-2'
+        className='w-64 h-8 rounded border border-gray-500 p-2 text-sm text-gray-700'
         />
     </div>
   );
