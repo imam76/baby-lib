@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+*:focus {
+    outline: none;
+}
+
 .input-text-wrapper{
   display: flex;
   justify-content: flex-start;

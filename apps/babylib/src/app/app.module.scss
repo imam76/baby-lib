@@ -1,4 +1,7 @@
 /* Your styles goes here. */
+*:focus {
+    outline: none;
+}
 .todoWrapper {
   padding: 16px;
   height: 200px;

@@ -10,13 +10,13 @@ export interface InputTextProps {
 export function InputText(props: InputTextProps) {
   return (
     <div className={style['input-text-wrapper']}>
-      {props.label ? <label>{props.label}</label> : null}
+      {props.label ? <label className='block text-sm font-medium text-gray-700'>{props.label}</label> : null}
       <input
         type="text"
         id={props.id}
         onChange={props.onChange}
-        className={style['input-text']}
-      />
+        className='w-64 h-8 rounded-md border border-gray-300 p-2'
+        />
     </div>
   );
 }

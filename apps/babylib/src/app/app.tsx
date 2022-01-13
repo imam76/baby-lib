@@ -1,17 +1,14 @@
 import React, { useState } from 'react';
 import styles from './app.module.scss';
 import NxWelcome from './nx-welcome';
-import { Todo } from 'todo-lib';
+import { InputText } from '@cosmic/InputText'
 
 export function App() {
   return (
     <>
       <NxWelcome title="babylib" />
       <div className={styles['todoWrapper']}>
-        <Todo prefix='Books' />
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
+        <InputText label='Tested' />
       </div>
     </>
   );
